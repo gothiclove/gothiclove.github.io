@@ -1,0 +1,173 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+		div {
+			border: 1px solid green;
+		}
+		.wrapper {
+			max-width: 1200px;
+			margin: 0 auto;
+			text-align: center;
+		}
+		.block_1 {
+			font-size: 0px;
+			background: orange;
+		}
+		.b_1 {
+			display: inline-block;
+			width: 395px;
+			font-size: 20px;
+			vertical-align: top;
+		}
+		.block_2 {
+			font-size: 0px;
+			background: grey;
+		}
+		.b_2 {
+			display: inline-block;
+			width: 593px;
+			font-size: 20px;
+			vertical-align: top;
+		}
+		.block_3 {
+			font-size: 0px;
+			background: yellow;
+		}
+		.b_3 {
+			display: inline-block;
+			width: 593px;
+			font-size: 20px;
+			vertical-align: top;
+		}
+		.b_4 {
+			display: inline-block;
+			width: 290px;
+			font-size: 20px;
+			vertical-align: top;
+		}
+		.special {
+			font-size: 0px;
+			background: violet;
+		}
+		.block_4 {
+			font-size: 0px;
+			background: blue;
+		}
+		.b_5 {
+			display: inline-block;
+			width: 593px;
+			font-size: 20px;
+			vertical-align: top;
+		}
+		.b_6 {
+			display: inline-block;
+			width: 290px;
+			font-size: 20px;
+			vertical-align: top;
+		}
+		.special_2 {
+			font-size: 0px;
+		}
+
+		.fix2 {
+			display: inline-block;
+			width: 140px;
+			font-size: 20px;
+			vertical-align: top;
+		}
+		.fro {
+			font-size: 0px;
+		}
+
+
+
+
+		.first {
+			background: grey;
+		}
+		.tc {
+			display: table-cell;
+			width: 400px;
+		}
+		.second {
+			background: pink;
+		}
+		.tc_1 {
+			display: table-cell;
+			width: 600px;
+		}
+		.third {
+			background: yellow;
+		}
+		.tc_3 {
+			display: table-cell;
+			width: 600px;
+		}
+		.tc_4 {
+			display: table-cell;
+			width: 300px;
+		}
+		.fourth {
+			background: blue;
+		}
+		.tc_5 {
+			display: table-cell;
+			width: 600px;
+		}
+		.tc_6 {
+			display: table-cell;
+			width: 300px;
+		}
+		.tc_7 {
+			display: table-cell;
+			width: 150px;
+		}
+		.fix {
+			display: table-cell;
+			width: 300px;
+		}
