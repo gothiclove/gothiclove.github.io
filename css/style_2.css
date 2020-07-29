@@ -110,18 +110,21 @@ table {
 			font-size: 20px;
 			vertical-align: top;
 		}
-		.b_7{
+		.special_2 {
+			font-size: 0px;
+		}
+
+		.fix2 {
 			display: inline-block;
 			width: 140px;
 			font-size: 20px;
 			vertical-align: top;
 		}
-		.special_2 {
+		.fro {
 			font-size: 0px;
 		}
-		.special_3 {
-			font-size: 0px;
-		}
+
+
 
 
 		.first {
@@ -163,4 +166,8 @@ table {
 		.tc_7 {
 			display: table-cell;
 			width: 150px;
+		}
+		.fix {
+			display: table-cell;
+			width: 300px;
 		}
