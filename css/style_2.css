@@ -47,7 +47,7 @@ table {
 	border-spacing: 0;
 }
 		div {
-			border: 1px solid green;
+			border: 1px solid black;
 		}
 		.wrapper {
 			max-width: 1200px;
@@ -171,3 +171,118 @@ table {
 			display: table-cell;
 			width: 300px;
 		}
+
+
+		.clearfix ::after {
+			content: "";
+			clear: both;
+			display: block;
+		}
+		.thefirst {
+			background: #87CEFA;
+			float: left;
+		}
+		.f1 {
+			width: 395px;
+			float: left;
+		}
+		.thesecond {
+			background: #FAFAD2;
+			float: left;
+		}
+		.f2 {
+			width: 592px;
+			float: left;
+		}
+		.thethird {
+			float: left;
+			background: #90EE90;
+		}
+		.f3 {
+			float: left;
+			width: 592px;
+		}
+		.spec {
+			background: red;
+			float: left;
+		}
+		.f4 {
+			width: 292px;
+			float: left;
+		}
+
+		.thefourth {
+			float: left;
+			background: #FFA07A;
+		}
+
+		.f5 {
+			width: 592px;
+			float: left;
+		}
+		.wrap1 {
+			float: left;
+		}
+		.f6 {
+			width: 292px;
+			float: left;
+		}
+		.wrap2 {
+			float: left;
+		}
+		.f7 {
+			width: 142px;
+			float: left;
+		}
+
+		.thefirst_flex {
+			display: flex;
+			background: #00FF00;
+			flex-direction: row-reverse;
+		}
+
+		.thesecond_flex {
+			display: flex;
+			background: #FFE4B5;
+			align-items: flex-end;
+		}
+		.thethird_flex {
+			display: flex;
+			background: #66CDAA;
+		}
+		.thefourth_flex {
+			display: flex;
+			background: #8FBC8F;
+		}
+		.thefifth_flex {
+			display: flex;
+			background: #A52A2A;
+		}
+		.thesixth_flex {
+			display: flex;
+			background: #D2691E;
+		}
+		.theseventh_flex {
+			display: flex;
+			background: #DAA520;
+		}
+		.fl_1 {
+			flex-shrink: 3;
+		}
+		.fl_2 {
+			flex-shrink: 2
+		}
+		.fl_3 {
+			flex-basis: 50%;
+		}
+		.fl_4 {
+			flex-basis: 50%;
+		}
+		.fl_5 {
+			flex-shrink: 3;
+		}
+		.fl_7 {
+			flex-shrink: 3;
+		}
+
+
