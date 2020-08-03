@@ -210,6 +210,7 @@ table {
 		.thefourth {
 			background: #FFA07A;
 		}
+
 		.f5 {
 			width: 592px;
 			float: left;
@@ -255,10 +256,10 @@ table {
 			background: #DAA520;
 		}
 		.fl_1 {
-			flex-shrink: 3;
+			flex-basis: 33%;
 		}
 		.fl_2 {
-			flex-shrink: 2
+			flex-basis: 50%;
 		}
 		.fl_3 {
 			flex-basis: 50%;
@@ -267,10 +268,9 @@ table {
 			flex-basis: 50%;
 		}
 		.fl_5 {
-			flex-shrink: 3;
+			flex-basis: 50%;
 		}
 		.fl_7 {
-			flex-shrink: 3;
+			flex-basis: 50%;
 		}
-
 
