@@ -173,14 +173,13 @@ table {
 		}
 
 
-		.clearfix ::after {
+		.clearfix::after {
 			content: "";
 			clear: both;
 			display: block;
 		}
 		.thefirst {
 			background: #87CEFA;
-			float: left;
 		}
 		.f1 {
 			width: 395px;
@@ -188,14 +187,12 @@ table {
 		}
 		.thesecond {
 			background: #FAFAD2;
-			float: left;
 		}
 		.f2 {
 			width: 592px;
 			float: left;
 		}
 		.thethird {
-			float: left;
 			background: #90EE90;
 		}
 		.f3 {
@@ -204,7 +201,6 @@ table {
 		}
 		.spec {
 			background: red;
-			float: left;
 		}
 		.f4 {
 			width: 292px;
@@ -212,22 +208,14 @@ table {
 		}
 
 		.thefourth {
-			float: left;
 			background: #FFA07A;
 		}
-
 		.f5 {
 			width: 592px;
 			float: left;
 		}
-		.wrap1 {
-			float: left;
-		}
 		.f6 {
 			width: 292px;
-			float: left;
-		}
-		.wrap2 {
 			float: left;
 		}
 		.f7 {
