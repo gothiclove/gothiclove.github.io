@@ -46,13 +46,11 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-		div {
-			border: 1px solid black;
-		}
 		.wrapper {
 			max-width: 1200px;
 			margin: 0 auto;
 			text-align: center;
+			background: #F5F5DC;
 		}
 		.block_1 {
 			font-size: 0px;
@@ -178,51 +176,45 @@ table {
 			clear: both;
 			display: block;
 		}
-		.thefirst {
-			background: #87CEFA;
-		}
 		.f1 {
-			width: 395px;
+			width: 33%;
 			float: left;
-		}
-		.thesecond {
-			background: #FAFAD2;
+			background: #BC8F8F;
 		}
 		.f2 {
-			width: 592px;
+			width: 596px;
 			float: left;
-		}
-		.thethird {
-			background: #90EE90;
+			background: #4169E1;
 		}
 		.f3 {
 			float: left;
-			width: 592px;
-		}
-		.spec {
-			background: red;
+			width: 597px;
+			background: #C71585;
 		}
 		.f4 {
 			width: 292px;
 			float: left;
-		}
-
-		.thefourth {
-			background: #FFA07A;
+			background: #2E8B57;
 		}
 
 		.f5 {
 			width: 592px;
 			float: left;
+			background: #FFA07A;
 		}
 		.f6 {
 			width: 292px;
 			float: left;
+			background: #BDB76B;
 		}
 		.f7 {
 			width: 142px;
 			float: left;
+			background: #00FF00;
 		}
+
+
+
 
 		.thefirst_flex {
 			display: flex;
