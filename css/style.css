@@ -151,3 +151,11 @@ table {
 			border: solid black 1px;
 			width: 198px;
 		}
+		.el2 {
+			display: table-cell;
+			width: 133px;
+			border: solid white 1px;
+			font-size: 30px;
+			color: #006400;
+			font-weight: 800;
+		}
