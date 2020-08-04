@@ -121,6 +121,7 @@ table {
 		.image {
 			position: relative;
                         width: 800px;
+	                margin: 0 auto;
 		}
 		.absolute {
 			z-index: 5;
