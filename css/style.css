@@ -120,6 +120,7 @@ table {
 		}
 		.image {
 			position: relative;
+                        display inline-block;
 		}
 		.absolute {
 			z-index: 5;
