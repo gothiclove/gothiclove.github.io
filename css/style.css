@@ -144,9 +144,6 @@ table {
 			margin-top: -100px;
 			display: flex;
 		}
-		img {
-			width: 100%
-		}
 		.el {
 			border: solid black 1px;
 			width: 198px;
