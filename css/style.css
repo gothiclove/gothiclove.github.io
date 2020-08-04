@@ -147,11 +147,11 @@ table {
 		}
 		.el {
 			border: solid black 1px;
-			width: 198px;
+			width: 130px;
 		}
 		.el2 {
 			display: table-cell;
-			width: 133px;
+			width: 100px;
 			border: solid white 1px;
 			font-size: 30px;
 			color: #006400;
