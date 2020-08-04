@@ -120,6 +120,7 @@ table {
 		}
 		.image {
 			position: relative;
+                        width: 800px;
 		}
 		.absolute {
 			z-index: 5;
@@ -131,7 +132,6 @@ table {
 			left: 0;
 			height: 200px;
 			margin-top: -100px;
-                        width: 100%;
 		}
 		.absolute2 {
 			z-index: 5;
@@ -144,7 +144,6 @@ table {
 			height: 200px;
 			margin-top: -100px;
 			display: flex;
-                        width: 100%;
 		}
 		.el {
 			border: solid black 1px;
