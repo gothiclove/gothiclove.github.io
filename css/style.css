@@ -1,3 +1,4 @@
+@import url('style_2.css');
 	/* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -47,11 +48,10 @@ table {
 	border-spacing: 0;
 }
 		.wrapper {
-			text-align: center;
+			max-width: 1200px;
 			margin: 0 auto;
-			max-width: 800px;
-			font-family: Courier;
-			font-size: 20px;
+			text-align: center;
+			background: #F5F5DC;
 		}
 		h1 {
 			text-align: center;
@@ -65,14 +65,10 @@ table {
 			font-weight: 600;
 			margin: 10px;
 		}
-		p {
-			margin: 5px;
-			cursor: progress;
-		}
-		ul {
-			font-family: sans-serif; 
-			font-style: italic;	
-			list-style-type: circle;
+		.wrapper p {
+			font-size: 20px;
+			font-family: monospace;
+			color: #47332b;
 		}
 		#mainreason {
 			font-style: oblique;
@@ -106,17 +102,16 @@ table {
 			color: pink;
 		}
 
-		.fixed {
+		#fixed {
 			position: fixed;
 			z-index: 5;
 			background: rgba(214,86,43, 0.2);
-			border: solid black 1px;
-			font-family: verdana;
-			font-size: 35px;
+			border: dotted black 1px;
 			width: 400px;
 			height: 240px;
 			top: 50%;
 			margin-top: -120px;
+			font-size: 40px;
 		}
 		.image {
 			position: relative;
@@ -133,7 +128,14 @@ table {
 			height: 200px;
 			width: 100%;
 			margin-top: -100px;
+			display: none;
 		}
+		.image:hover .absolute {
+			display: block;
+		}
+
+
+
 		.absolute2 {
 			z-index: 5;
 			position: absolute;
@@ -147,9 +149,9 @@ table {
 			width: 100%;
 			display: flex;
 		}
-		.el {
+		.elem {
 			border: solid black 1px;
-			width: 198px;
+			width: 25%;
 		}
 		.el2 {
 			display: table-cell;
@@ -158,4 +160,63 @@ table {
 			font-size: 30px;
 			color: #006400;
 			font-weight: 800;
+		}
+
+		header {
+			margin-bottom: 20px;
+		}
+		ul {
+			text-align: center;
+			font-size: 0;
+			position: relative;
+			z-index: 5;
+		}
+
+		ul li {
+			display: inline-block;
+			margin-right: 8px;
+			font-size: 20px;
+			background: #d4faff;
+			position: relative;
+			width: 150px;
+			height: 70px;
+			border: 1px solid pink;
+		}
+		ul li a {
+			display: block;
+			text-decoration: none;
+			color: black;
+			text-transform: uppercase;
+			padding: 20px 30px;
+			font-family: Snell Roundhand, cursive;
+		}
+
+		ul>li:hover {
+			background: #edca72;
+		}
+		ul ul {
+			position: absolute;
+			top: 100%;
+			left: 0;
+			display: none;
+		}
+
+		ul li:hover>ul {
+			display: block;
+		}
+
+		ul ul ul {
+			position: absolute;
+			left: -100%;
+			right: 100%;
+			top: 0;
+			display: none;
+		}
+
+		ul ul li:hover>ul {
+			display: block;
+		}
+
+		p{
+			margin: 10px;
 		}

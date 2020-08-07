@@ -46,12 +46,6 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-		.wrapper {
-			max-width: 1200px;
-			margin: 0 auto;
-			text-align: center;
-			background: #F5F5DC;
-		}
 		.block_1 {
 			font-size: 0px;
 			background: orange;
