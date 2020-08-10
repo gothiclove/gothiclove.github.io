@@ -165,14 +165,14 @@ table {
 		header {
 			margin-bottom: 20px;
 		}
-		ul {
+		.mainmenu {
 			text-align: center;
 			font-size: 0;
 			position: relative;
 			z-index: 5;
 		}
 
-		ul li {
+		.mainmenu li {
 			display: inline-block;
 			margin-right: 8px;
 			font-size: 20px;
@@ -182,7 +182,7 @@ table {
 			height: 70px;
 			border: 1px solid pink;
 		}
-		ul li a {
+		.mainmenu li a {
 			display: block;
 			text-decoration: none;
 			color: black;
@@ -191,21 +191,21 @@ table {
 			font-family: Snell Roundhand, cursive;
 		}
 
-		ul>li:hover {
+		.mainmenu>li:hover {
 			background: #edca72;
 		}
-		ul ul {
+		.mainmenu ul {
 			position: absolute;
 			top: 100%;
 			left: 0;
 			display: none;
 		}
 
-		ul li:hover>ul {
+		.mainmenu li:hover>ul {
 			display: block;
 		}
 
-		ul ul ul {
+		.mainmenu ul ul {
 			position: absolute;
 			left: -100%;
 			right: 100%;
@@ -213,10 +213,58 @@ table {
 			display: none;
 		}
 
-		ul ul li:hover>ul {
+		.mainmenu ul li:hover>ul {
 			display: block;
 		}
 
 		p{
 			margin: 10px;
 		}
+
+		.footer {
+			background: #F8F8FF;
+			border: solid 3px #87CEFA;
+		}
+
+		.footer_menu {
+			display: flex;
+			justify-content: center;
+		}
+
+		.footer_menu li a {
+		   	width: 225px;
+	   		height: 225px;
+	   		background: url('../img/css_sprites.png');
+	   		display: block;
+		}
+
+		.footer_menu li+li a {
+			background-position: -450px;
+		}
+		.footer_menu li+li+li a {
+			background-position: -900px;
+		}
+
+		.footer_menu li:hover a{
+			background-position: -225px;
+		}
+		.footer_menu li+li:hover a{
+			background-position: -675px;
+		}
+			.footer_menu li+li+li:hover a{
+			background-position: -1125px;
+		}
+
+		body {
+			background: url('../img/burgers.jpeg');
+			background-size: cover;
+			background-attachment: fixed;
+		}
+
+
+
+
+
+
+
+
