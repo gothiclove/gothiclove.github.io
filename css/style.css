@@ -284,24 +284,25 @@ table {
 		   	width: 32px;
 	   		height: 32px;
 	   		background: url('../img/sprite.png');
+	   		background-position: -32px -96px;
 	   		display: block;
 		}
 
 		.footer_menu li+li a {
-			background-position: -32px 0px;
+			background-position: -32px -64px;
 		}
 		.footer_menu li+li+li a {
-			background-position: -64px -128px;
+			background-position: -64px -64px;
 		}
 
 		.footer_menu li:hover a{
-			background-position: -64px -96px;
+			background-position: -96px -64px;
 		}
 		.footer_menu li+li:hover a{
-			background-position: -96px 0px;
+			background-position: -128px -64px;
 		}
-		.footer_menu li+li+li:hover a{
-			background-position: -64px -64px;
+			.footer_menu li+li+li:hover a{
+			background-position: -160px -64px;
 		}
 
 		body {
