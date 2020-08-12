@@ -291,7 +291,7 @@ table {
 			background-position: -32px 0px;
 		}
 		.footer_menu li+li+li a {
-			background-position: -64px 0px;
+			background-position: -64px -128px;
 		}
 
 		.footer_menu li:hover a{
@@ -300,7 +300,7 @@ table {
 		.footer_menu li+li:hover a{
 			background-position: -96px 0px;
 		}
-			.footer_menu li+li+li:hover a{
+		.footer_menu li+li+li:hover a{
 			background-position: -64px -64px;
 		}
 
