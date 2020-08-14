@@ -1,3 +1,4 @@
+
 @import url('style_2.css');
 	/* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -166,13 +167,13 @@ table {
 		}
 		.mainmenu {
 			text-align: center;
-			font-size: 0;
 			position: relative;
 			z-index: 5;
+			display: flex;
+			justify-content: center;
 		}
 
 		.mainmenu li {
-			display: inline-block;
 			margin-right: 8px;
 			font-size: 20px;
 			background: #d4faff;
@@ -181,7 +182,7 @@ table {
 			height: 70px;
 			border: 1px solid pink;
 		}
-		.mainmenu li a {
+		.mainmenu>.bef1>a {
 			display: block;
 			text-decoration: none;
 			color: black;
@@ -190,27 +191,83 @@ table {
 			font-family: Snell Roundhand, cursive;
 		}
 
-		.mainmenu li a:before {
+		.mainmenu>.bef2>a {
+			display: block;
+			text-decoration: none;
+			color: black;
+			text-transform: uppercase;
+			padding: 20px 20px 20px 60px;
+			font-family: Snell Roundhand, cursive;
+		}
+
+		.mainmenu>.afterclass>a {
+			display: block;
+			text-decoration: none;
+			color: black;
+			text-transform: uppercase;
+			padding: 20px 60px 20px 20px;
+			font-family: Snell Roundhand, cursive;
+		}
+
+		.mainmenu ul li a {
+			display: block;
+			text-decoration: none;
+			color: black;
+			text-transform: uppercase;
+			padding: 20px 20px 20px 60px;
+			font-family: Snell Roundhand, cursive;
+		}
+
+		.mainmenu .bef1 a:before {
 			content: "";
 	   		width: 32px;
 	   		height: 32px;
 	   		background: url('../img/sprite.png');
+	   		background-position: -32 px -32 px;
 	   		transition: all 1s ease;
 	   		position: absolute;
 	   		top: 0;
 	   		left: 0;
 	   }
 
-	   .mainmenu li+li a:before {
-	   		background-position: -32px 0;
+	   .mainmenu>.bef2>a:before {
+			content: "";
+	   		width: 32px;
+	   		height: 32px;
+	   		background: url('../img/sprite.png');
+	   		background-position: -32px -64px;
+	   		transition: all 1s ease;
+	   		position: absolute;
+	   		top: 0;
+	   		left: 0;
 	   }
 
-	   .mainmenu li+li+li>a:before {
-	   		background-position: -64px 0;
+	     .mainmenu>.afterclass>a:after {
+			content: "";
+	   		width: 32px;
+	   		height: 32px;
+	   		background: url('../img/sprite.png');
+	   		background-position: -32px -128px;
+	   		transition: all 1s ease;
+	   		position: absolute;
+	   		top: 0;
+	   		right: 0;
 	   }
 
-	    .mainmenu>li+li+li:hover>a:before {
-	   		background-position: -64px -32px;
+	    .mainmenu>.afterclass:hover>a:after {
+	   		background-position: -32px -160px;
+	   }
+
+	   .mainmenu ul a:before {
+			content: "";
+	   		width: 32px;
+	   		height: 32px;
+	   		background: url('../img/sprite.png');
+	   		background-position: -32 px -32 px;
+	   		transition: all 1s ease;
+	   		position: absolute;
+	   		top: 0;
+	   		left: 0;
 	   }
 
 	    .mainmenu ul li a:before {
@@ -310,4 +367,3 @@ table {
 			background-size: cover;
 			background-attachment: fixed;
 		}
-
