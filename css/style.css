@@ -263,7 +263,7 @@ table {
 	   		width: 32px;
 	   		height: 32px;
 	   		background: url('../img/sprite.png');
-	   		background-position: -32 px -32 px;
+	   		background-position: -32px -32px;
 	   		transition: all 1s ease;
 	   		position: absolute;
 	   		top: 0;
