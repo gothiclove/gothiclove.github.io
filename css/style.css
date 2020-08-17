@@ -365,3 +365,95 @@ table {
 			background-size: cover;
 			background-attachment: fixed;
 		}
+
+		/*Fixed с трансформацией*/
+
+		#fixedmenu 	{
+			position: fixed;
+			z-index: 5;
+			background: rgba(127, 255, 212, 0.6);
+			border: dotted blue 1px;
+			width: 400px;
+			height: 240px;
+			top: 50%;
+			margin-top: -120px;
+			right: -369px;
+			font-size: 30px;
+		}
+
+		.fixedlabel {
+			display: inline-block;
+			background: #7B68EE;
+			transform: rotate(-90deg) translateX(-95px) translateY(-125px);
+			border: 0.5px solid #4B0082;
+		}
+
+		#fixedmenu:hover {
+			right: 0;
+			transition: all 2s linear;
+		}
+
+		.fixtable {
+			width: 120px;
+			height: 120px;
+			margin: 0 auto;
+			background: #6A5ACD;
+		}
+
+		.fixedsocbox {
+			display: flex;
+  			align-items: center;
+  			justify-content: center;
+			flex-wrap: wrap;
+			width: 80px;
+			height: 80px;
+			transform: rotate(-45deg) translateY(28px);
+		}
+
+		.fixedsocbox li a {
+	   		display: block;
+	   		position: relative;
+	   		background: #00CED1;
+	   		width: 28px;
+	   		height: 30px;
+	   		margin: 3px;
+		}
+
+		.fixedsocbox li a:before {
+			content: "";
+	   		background: url('../img/sprite.png');
+	   		width: 32px;
+	   		height: 32px;
+	   		position: absolute;
+	   		top:0;
+	   		left: 0;
+	   		background-position: -320px -32px;
+	   		transform: rotate(45deg);
+	   	}
+
+	   	.fixedsocbox li+li a:before {
+	   		background-position: -352px -128px;
+	   	}
+
+
+	   	.fixedsocbox li+li+li a:before {
+	   		background-position: -384px -128px;
+	   	}
+
+	   	.fixedsocbox li+li+li+li a:before {
+	   		background-position: -416px -128px;
+	   	}
+
+	   	.fixedsocbox li:hover a{
+	   		background: #9370DB;
+	   		transform: scale(1.5) rotate(360deg);
+	   		transition: all 1s ease;
+	   	}
+
+
+
+
+
+
+
+
