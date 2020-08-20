@@ -360,11 +360,7 @@ table {
 			background-position: -160px -64px;
 		}
 
-		body {
-			background: url('../img/burgers.jpeg');
-			background-size: cover;
-			background-attachment: fixed;
-		}
+
 
 		/*Fixed с трансформацией*/
 
@@ -449,6 +445,119 @@ table {
 	   		transform: scale(1.5) rotate(360deg);
 	   		transition: all 1s ease;
 	   	}
+
+	   	/*Фигуры*/
+
+		.wrapper2 {
+			max-width: 1200px;
+			margin: 0 auto;
+			text-align: center;
+		}
+
+		.figure1 {
+			width: 100px;
+			height: 200px;
+			background: radial-gradient(circle at 50%, transparent 40%, green 20%);
+			margin: 100px;
+			position: relative;
+		}
+
+		.figure1:before {
+			content: "";
+			position: absolute;
+			width: 0; 
+			height: 0;
+			border-top: 100px solid transparent;
+			border-right: 70px solid green;
+			border-bottom: 100px solid transparent;
+			transform: translateX(-120px);
+		}
+
+		.figure1:after {
+			content: "";
+			position: absolute;
+			width: 0; 
+			height: 0;
+			border-top: 100px solid transparent;
+			border-left: 70px solid green;
+			border-bottom: 100px solid transparent;
+			transform: translateX(49px);
+		}
+
+		.figure2 {
+			height: 200px;
+			width: 50px;
+			transform: rotate(90deg);
+			position: relative;
+			margin: 100px;
+			background: linear-gradient(140deg, blue 10% 15%, darkblue 15% 20%, blue 20% 25%, darkblue 25% 30%, blue 30% 35%, darkblue 35% 40%, blue 40% 45%, darkblue 45% 50%, blue 50%);
+		}
+
+		.figure2:before {
+			content: "";
+			position: absolute;
+			background: blue;
+			width: 60px;
+			height: 30px;
+			top: 99%;
+			border-radius: 0 0 50% 0;
+			transform: translateX(8px) translateY(-10px);
+			background: blue;
+		}
+
+		.figure2:after {
+			content: "";
+			position: absolute;
+			background: blue;
+			width: 60px;
+			height: 30px;
+			border-radius: 0 0 0 50%;
+			transform: translateX(-63px) translateY(188px);
+		}
+
+    	.figure3 {
+			margin: 200px;
+			width: 190px;
+    		height: 60px;
+    		background: radial-gradient(circle at 85%, transparent 6%, red 6%);;
+    		position: relative;
+    		border-radius: 0 20% 20% 0/0 50% 50% 0;
+    		transform: rotate(45deg);
+    	}
+
+    	.figure3:after {
+    		content: "";
+			position: absolute;
+			width: 100px; 
+			height: 100px;
+			border-bottom: 30px solid red;
+			border-left: 25px solid red;
+			border-right: 25px solid red;
+			background: transparent;
+			border-radius: 15% 15% 40% 40%/50% 50% 50% 50%;
+			transform: rotate(-90deg);
+			top: -55%;
+			left: -60%;
+    	}
+
+
+
+
+
+
+
+
+
+
+
+
+	   	
+
+
+
+
+
+	   
 
 
 
