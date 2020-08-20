@@ -454,12 +454,17 @@ table {
 			text-align: center;
 		}
 
+		.threef{
+			font-size:0;
+		}
+
 		.figure1 {
 			width: 100px;
 			height: 200px;
 			background: radial-gradient(circle at 50%, transparent 40%, green 20%);
 			margin: 100px;
 			position: relative;
+			display: inline-block;
 		}
 
 		.figure1:before {
@@ -487,6 +492,7 @@ table {
 		.figure2 {
 			height: 200px;
 			width: 50px;
+			display: inline-block;
 			transform: rotate(90deg);
 			position: relative;
 			margin: 100px;
@@ -519,6 +525,7 @@ table {
 			margin: 200px;
 			width: 190px;
     		height: 60px;
+    		display: inline-block;
     		background: radial-gradient(circle at 85%, transparent 6%, red 6%);;
     		position: relative;
     		border-radius: 0 20% 20% 0/0 50% 50% 0;
@@ -539,6 +546,83 @@ table {
 			top: -55%;
 			left: -60%;
     	}
+
+    	.figure4{
+    		margin: 300px;
+    		display: inline-block;
+    	}
+
+    	.bottomf {
+    		width: 500px;
+    		height: 40px;
+    		position: relative;
+    		background: radial-gradient(circle, darkgrey 20%, grey 20%) repeat 0 0 / 120px 50px;
+    	}
+
+    	.bottomf:before {
+    		content: "";
+    		position: absolute;
+    		width: 0; 
+			height: 0;
+			border-top: 100px solid transparent;
+			border-right: 170px solid grey;
+			border-bottom: 100px solid transparent;
+			top: -159px;
+			left: -33%;
+    	}
+
+    	.bottomf:after {
+    		content: "";
+    		position: absolute;
+    		height: 50px;
+    		width: 80px;
+    		background: grey;
+    		left: 502px;
+    		transform: rotate(-45deg) translateY(-44px);
+    	}
+
+    	.mast {
+    		height: 347px;
+    		width: 10px;
+    		background: orange;
+    		transform: translateY(-386px) translateX(200px);
+    		position: relative;
+    	}
+
+    	.mast:before {
+    		content: "";
+    		position: absolute;
+    		width: 300px;
+    		height: 350px;
+    		border-radius: 50%;
+    		border-left: 70px solid lightblue;
+    		background: transparent;
+    		transform: translateX(-175px) translateY(-2px);
+    	}
+
+    	.mast:after {
+    		content: "";
+    		position: absolute;
+    		width: 200px; 
+			height: 200px;
+			background: radial-gradient(circle at 100% 0, rgba(0, 0, 0, 0) 70%, green 70%);
+			transform: rotate(-135deg) translateY(-140px) translateX(-10px);
+			}
+
+		.flag {
+			width: 0; 
+			height: 0; 
+			border-width: 30px 80px 30px 80px;
+			border-style: solid;
+			border-color: red transparent red  red;
+			transform: translateY(-780px) translateX(200px);
+		}
+
+
+		
+
+
+
 
 
 
