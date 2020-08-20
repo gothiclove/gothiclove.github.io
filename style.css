@@ -1,0 +1,652 @@
+@import url('style_2.css');
+	/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+		.wrapper {
+			max-width: 1200px;
+			margin: 0 auto;
+			text-align: center;
+			background: rgba(255, 255, 224, 0.6);
+		}
+		h1 {
+			text-align: center;
+			font-size: 40px;
+			font-weight: 600;
+			margin: 15px;
+		}
+		h2 {
+			text-align: center;
+			font-size: 25px;
+			font-weight: 600;
+			margin: 10px;
+		}
+		.wrapper p {
+			font-size: 20px;
+			font-family: monospace;
+			color: #47332b;
+		}
+		#mainreason {
+			font-style: oblique;
+			color: white;
+			background-color: grey;
+		}
+		.fact {
+			text-align: left;
+			font-weight: 900;
+			font-size: 20px; 
+			background-color: pink; 
+			padding: 20px 80px;
+			border: 15px solid yellow;
+		}
+		.example, .fail {
+			color: grey;
+		}
+		.conclusion {
+			font-size: 17px;
+			padding: 10px;
+			border: 6px dotted green;
+			margin: 10px;
+		}
+		.nameoflist {
+			color: red;
+			font-family: calibri;
+			margin: 10px;
+		}
+		.list {
+			margin: 8px;
+			color: pink;
+		}
+
+		#fixed {
+			position: fixed;
+			z-index: 5;
+			background: rgba(214,86,43, 0.2);
+			border: dotted black 1px;
+			width: 400px;
+			height: 240px;
+			top: 50%;
+			margin-top: -120px;
+			font-size: 40px;
+		}
+		.image {
+			position: relative;
+			display: inline-block;
+		}
+		.absolute {
+			z-index: 5;
+			position: absolute;
+			color: black;
+			font-size: 40px;
+			background:rgba(175, 238, 238, 0.3);
+			top: 50%;
+			left: 0;
+			height: 200px;
+			width: 100%;
+			margin-top: -100px;
+			display: none;
+		}
+		.image:hover .absolute {
+			display: block;
+		}
+
+
+		.absolute2 {
+			z-index: 5;
+			position: absolute;
+			color: black;
+			font-size: 40px;
+			background:rgba(175, 238, 238, 0.3);
+			top: 50%;
+			left: 0;
+			height: 200px;
+			margin-top: -100px;
+			width: 100%;
+			display: flex;
+		}
+		.elem {
+			border: solid black 1px;
+			width: 25%;
+		}
+		.el2 {
+			display: table-cell;
+			width: 133px;
+			border: solid white 1px;
+			font-size: 30px;
+			color: #006400;
+			font-weight: 800;
+		}
+
+		header {
+			margin-bottom: 20px;
+		}
+		.mainmenu {
+			text-align: center;
+			position: relative;
+			z-index: 5;
+			display: flex;
+			justify-content: center;
+		}
+
+		.mainmenu li {
+			margin-right: 8px;
+			font-size: 20px;
+			background: #d4faff;
+			position: relative;
+			width: 150px;
+			height: 70px;
+			border: 1px solid pink;
+		}
+		.mainmenu>.bef1>a {
+			display: block;
+			text-decoration: none;
+			color: black;
+			text-transform: uppercase;
+			padding: 20px 20px 20px 60px;
+			font-family: Snell Roundhand, cursive;
+		}
+
+		.mainmenu>.bef2>a {
+			display: block;
+			text-decoration: none;
+			color: black;
+			text-transform: uppercase;
+			padding: 20px 20px 20px 60px;
+			font-family: Snell Roundhand, cursive;
+		}
+
+		.mainmenu>.afterclass>a {
+			display: block;
+			text-decoration: none;
+			color: black;
+			text-transform: uppercase;
+			padding: 20px 60px 20px 20px;
+			font-family: Snell Roundhand, cursive;
+		}
+
+		.mainmenu ul li a {
+			display: block;
+			text-decoration: none;
+			color: black;
+			text-transform: uppercase;
+			padding: 20px 20px 20px 60px;
+			font-family: Snell Roundhand, cursive;
+		}
+
+		.mainmenu .bef1 a:before {
+			content: "";
+	   		width: 32px;
+	   		height: 32px;
+	   		background: url('../img/sprite.png');
+	   		transition: all 1s ease;
+	   		position: absolute;
+	   		top: 0;
+	   		left: 0;
+	   }
+
+	   .mainmenu>.bef2>a:before {
+			content: "";
+	   		width: 32px;
+	   		height: 32px;
+	   		background: url('../img/sprite.png');
+	   		background-position: -32px -64px;
+	   		transition: all 1s ease;
+	   		position: absolute;
+	   		top: 0;
+	   		left: 0;
+	   }
+
+	     .mainmenu>.afterclass>a:after {
+			content: "";
+	   		width: 32px;
+	   		height: 32px;
+	   		background: url('../img/sprite.png');
+	   		background-position: -32px -128px;
+	   		transition: all 1s ease;
+	   		position: absolute;
+	   		top: 0;
+	   		right: 0;
+	   }
+
+	    .mainmenu>.afterclass:hover>a:after {
+	   		background-position: -32px -160px;
+	   }
+
+	   .mainmenu ul a:before {
+			content: "";
+	   		width: 32px;
+	   		height: 32px;
+	   		background: url('../img/sprite.png');
+	   		background-position: -32px -32px;
+	   		transition: all 1s ease;
+	   		position: absolute;
+	   		top: 0;
+	   		left: 0;
+	   }
+
+	    .mainmenu ul li a:before {
+	    	background-position: -96px 0;
+	    }
+	
+	    .mainmenu ul li+li a:before {
+	    	background-position: -128px 0;
+	    }
+
+	    .fchild:hover>a:before {
+	    	background-position: -96px -32px;
+	    }
+
+	    .mainmenu ul ul li a:before {
+	    	background-position: -160px 0;
+	    }
+
+	    .mainmenu ul ul li+li a:before {
+	    	background-position: -192px 0;
+	    }
+
+	    .mainmenu ul ul li+li+li a:before {
+	    	background-position: -224px 0;
+	    }
+
+		.mainmenu li:hover {
+			background: #edca72;
+		}
+		.mainmenu ul {
+			position: absolute;
+			top: 100%;
+			left: 0;
+			opacity: 0;
+			transition: all 0.5s linear;
+		}
+
+		.mainmenu li:hover>ul {
+			opacity: 1;
+		}
+
+		.mainmenu ul ul {
+			position: absolute;
+			left: -100%;
+			right: 100%;
+			top: 0;
+			height: 0;
+			overflow: hidden;
+			transition: all 3s ease;
+		}
+
+		.mainmenu ul li:hover>ul {
+			height: auto;
+		}
+
+		p{
+			margin: 10px;
+		}
+
+		.footer {
+			background: #F8F8FF;
+			border: solid 3px #87CEFA;
+		}
+
+		.footer_menu {
+			display: flex;
+			justify-content: center;
+		}
+
+		.footer_menu li a {
+		   	width: 32px;
+	   		height: 32px;
+	   		background: url('../img/sprite.png');
+	   		background-position: -32px -96px;
+	   		display: block;
+		}
+
+		.footer_menu li+li a {
+			background-position: -32px -64px;
+		}
+		.footer_menu li+li+li a {
+			background-position: -64px -64px;
+		}
+
+		.footer_menu li:hover a{
+			background-position: -96px -64px;
+		}
+		.footer_menu li+li:hover a{
+			background-position: -128px -64px;
+		}
+			.footer_menu li+li+li:hover a{
+			background-position: -160px -64px;
+		}
+
+
+
+		/*Fixed с трансформацией*/
+
+		#fixedmenu 	{
+			position: fixed;
+			z-index: 5;
+			background: rgba(127, 255, 212, 0.6);
+			border: dotted blue 1px;
+			width: 400px;
+			height: 240px;
+			top: 50%;
+			margin-top: -120px;
+			right: -369px;
+			font-size: 30px;
+		}
+
+		.fixedlabel {
+			display: inline-block;
+			background: #7B68EE;
+			transform: rotate(-90deg) translateX(-95px) translateY(-125px);
+			border: 0.5px solid #4B0082;
+		}
+
+		#fixedmenu:hover {
+			right: 0;
+			transition: all 2s linear;
+		}
+
+		.fixtable {
+			width: 120px;
+			height: 120px;
+			margin: 0 auto;
+			background: #6A5ACD;
+		}
+
+		.fixedsocbox {
+			display: flex;
+  			align-items: center;
+  			justify-content: center;
+			flex-wrap: wrap;
+			width: 80px;
+			height: 80px;
+			transform: rotate(-45deg) translateY(28px);
+		}
+
+		.fixedsocbox li a {
+	   		display: block;
+	   		position: relative;
+	   		background: #00CED1;
+	   		width: 30px;
+	   		height: 30px;
+	   		margin: 3px;
+		}
+
+		.fixedsocbox li a:before {
+			content: "";
+	   		background: url('../img/sprite.png');
+	   		width: 32px;
+	   		height: 32px;
+	   		position: absolute;
+	   		top:0;
+	   		left: 0;
+	   		background-position: -320px -32px;
+	   		transform: rotate(45deg);
+	   	}
+
+	   	.fixedsocbox li+li a:before {
+	   		background-position: -352px -128px;
+	   	}
+
+
+	   	.fixedsocbox li+li+li a:before {
+	   		background-position: -384px -128px;
+	   	}
+
+	   	.fixedsocbox li+li+li+li a:before {
+	   		background-position: -416px -128px;
+	   	}
+
+	   	.fixedsocbox li:hover a{
+	   		background: #9370DB;
+	   		transform: scale(1.5) rotate(360deg);
+	   		transition: all 1s ease;
+	   	}
+
+	   	/*Фигуры*/
+
+		.wrapper2 {
+			max-width: 1200px;
+			margin: 0 auto;
+			text-align: center;
+		}
+
+		.threef{
+			font-size:0;
+		}
+
+		.figure1 {
+			width: 100px;
+			height: 200px;
+			background: radial-gradient(circle at 50%, transparent 40%, green 20%);
+			margin: 100px;
+			position: relative;
+			display: inline-block;
+		}
+
+		.figure1:before {
+			content: "";
+			position: absolute;
+			width: 0; 
+			height: 0;
+			border-top: 100px solid transparent;
+			border-right: 70px solid green;
+			border-bottom: 100px solid transparent;
+			transform: translateX(-120px);
+		}
+
+		.figure1:after {
+			content: "";
+			position: absolute;
+			width: 0; 
+			height: 0;
+			border-top: 100px solid transparent;
+			border-left: 70px solid green;
+			border-bottom: 100px solid transparent;
+			transform: translateX(49px);
+		}
+
+		.figure2 {
+			height: 200px;
+			width: 50px;
+			display: inline-block;
+			transform: rotate(90deg);
+			position: relative;
+			margin: 100px;
+			background: linear-gradient(140deg, blue 10% 15%, darkblue 15% 20%, blue 20% 25%, darkblue 25% 30%, blue 30% 35%, darkblue 35% 40%, blue 40% 45%, darkblue 45% 50%, blue 50%);
+		}
+
+		.figure2:before {
+			content: "";
+			position: absolute;
+			background: blue;
+			width: 60px;
+			height: 30px;
+			top: 99%;
+			border-radius: 0 0 50% 0;
+			transform: translateX(8px) translateY(-10px);
+			background: blue;
+		}
+
+		.figure2:after {
+			content: "";
+			position: absolute;
+			background: blue;
+			width: 60px;
+			height: 30px;
+			border-radius: 0 0 0 50%;
+			transform: translateX(-63px) translateY(188px);
+		}
+
+    	.figure3 {
+			margin: 200px;
+			width: 190px;
+    		height: 60px;
+    		display: inline-block;
+    		background: radial-gradient(circle at 85%, transparent 6%, red 6%);;
+    		position: relative;
+    		border-radius: 0 20% 20% 0/0 50% 50% 0;
+    		transform: rotate(45deg);
+    	}
+
+    	.figure3:after {
+    		content: "";
+			position: absolute;
+			width: 100px; 
+			height: 100px;
+			border-bottom: 30px solid red;
+			border-left: 25px solid red;
+			border-right: 25px solid red;
+			background: transparent;
+			border-radius: 15% 15% 40% 40%/50% 50% 50% 50%;
+			transform: rotate(-90deg);
+			top: -55%;
+			left: -60%;
+    	}
+
+    	.figure4{
+    		margin: 300px;
+    		display: inline-block;
+    	}
+
+    	.bottomf {
+    		width: 500px;
+    		height: 40px;
+    		position: relative;
+    		background: radial-gradient(circle, darkgrey 20%, grey 20%) repeat 0 0 / 120px 50px;
+    	}
+
+    	.bottomf:before {
+    		content: "";
+    		position: absolute;
+    		width: 0; 
+			height: 0;
+			border-top: 100px solid transparent;
+			border-right: 170px solid grey;
+			border-bottom: 100px solid transparent;
+			top: -159px;
+			left: -33%;
+    	}
+
+    	.bottomf:after {
+    		content: "";
+    		position: absolute;
+    		height: 50px;
+    		width: 80px;
+    		background: grey;
+    		left: 502px;
+    		transform: rotate(-45deg) translateY(-44px);
+    	}
+
+    	.mast {
+    		height: 347px;
+    		width: 10px;
+    		background: orange;
+    		transform: translateY(-386px) translateX(200px);
+    		position: relative;
+    	}
+
+    	.mast:before {
+    		content: "";
+    		position: absolute;
+    		width: 300px;
+    		height: 350px;
+    		border-radius: 50%;
+    		border-left: 70px solid lightblue;
+    		background: transparent;
+    		transform: translateX(-175px) translateY(-2px);
+    	}
+
+    	.mast:after {
+    		content: "";
+    		position: absolute;
+    		width: 200px; 
+			height: 200px;
+			background: radial-gradient(circle at 100% 0, rgba(0, 0, 0, 0) 70%, green 70%);
+			transform: rotate(-135deg) translateY(-140px) translateX(-10px);
+			}
+
+		.flag {
+			width: 0; 
+			height: 0; 
+			border-width: 30px 80px 30px 80px;
+			border-style: solid;
+			border-color: red transparent red  red;
+			transform: translateY(-780px) translateX(200px);
+		}
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	   	
+
+
+
+
+
+	   
+
+
+
+
+
+
+
+
