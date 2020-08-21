@@ -655,7 +655,7 @@ input[type="checkbox"]{
 	    	position: absolute;
 	    	left: 5px;
 	    	top: 14px;
-	    	transition: all 1s linear;
+	    	transition: all 0.5s linear;
 	    }
 	    input[type="checkbox"]:checked+label:after{
 
