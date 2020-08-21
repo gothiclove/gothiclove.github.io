@@ -631,6 +631,7 @@ input[type="checkbox"]{
 	  	display: inline-block;
 	  	font-size: 30px;
 	  	position: relative;
+		cursor: pointer;
 	  }
 
 
