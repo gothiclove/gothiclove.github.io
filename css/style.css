@@ -526,7 +526,7 @@ table {
 			width: 190px;
     		height: 60px;
     		display: inline-block;
-    		background: radial-gradient(circle at 85%, transparent 6%, red 6%);;
+    		background: radial-gradient(circle at 85%, transparent 6%, red 6%);
     		position: relative;
     		border-radius: 0 20% 20% 0/0 50% 50% 0;
     		transform: rotate(45deg);
@@ -618,8 +618,60 @@ table {
 			transform: translateY(-780px) translateX(200px);
 		}
 
+		/*Buttons*/
 
-		
+/* The switch - the box around the slider */
+input[type="checkbox"]{
+	  	display: none;
+	  }
+
+	  input[type="checkbox"]+label{
+	  	padding: 10px 10px 10px 100px;
+	  	margin: 10px 10px 10px 10px;
+	  	display: inline-block;
+	  	font-size: 30px;
+	  	position: relative;
+	  }
+
+
+	   input[type="checkbox"]+label:before{
+	    	content: "";
+	    	width: 90px;
+	    	height: 30px;
+	    	border: 1px solid transparent;
+	    	border-radius: 20px;
+	    	position: absolute;
+	    	background: grey;
+	    	top: 8px;
+	    	left: 0;
+	    }
+
+	   input[type="checkbox"]+label:after{
+	    	content: "";
+	    	width: 20px;
+	    	height: 20px;
+	    	border-radius: 50%;
+	    	background: white;
+	    	position: absolute;
+	    	left: 5px;
+	    	top: 14px;
+	    	transition: all 1s linear;
+	    }
+	    input[type="checkbox"]:checked+label:after{
+
+	    	transform: translateX(60px);
+	    }
+
+	     input[type="checkbox"]:checked+label:before{
+	    	background: blue;
+	    }
+
+
+	    
+	  
+
+
+
 
 
 
