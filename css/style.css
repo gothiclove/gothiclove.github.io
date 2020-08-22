@@ -666,6 +666,7 @@ input[type="checkbox"]{
 
 	     input[type="checkbox"]:checked+label:before{
 	    	background: blue;
+	    	transition: all 0.5s linear;
 	    }
 
 	    input[type="text"]{
@@ -682,7 +683,7 @@ input[type="checkbox"]{
 		:-ms-input-placeholder      {color:#FFA07A;}
 
 		 input[type="text"]:focus {
-		 	background: #A52A2A;	
+		 	background: #A52A2A;
 		 }
 
 		 select {
@@ -691,7 +692,7 @@ input[type="checkbox"]{
 			-ms-appearance: none;
 			appearance: none;
 			padding: 3px;
-			width: 84px;
+			width: 80px;
 			background: url('../img/down.png') no-repeat right 10% center;
 			background-size: 13px 13px;
 			cursor: pointer;
