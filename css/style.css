@@ -673,6 +673,7 @@ input[type="checkbox"]{
 	    	height: 20px;
 	    	border: #FF6347	solid 1px;
 	    	background-color: #FFF5EE;
+	    	cursor: pointer;
 	    }
 
 	    ::-webkit-input-placeholder {color:#FFA07A;}
@@ -694,6 +695,7 @@ input[type="checkbox"]{
 			position: relative;
 			background: url('../img/down.png') no-repeat right 10% center;
 			background-size: 10px 10px;
+			cursor: pointer;
 		}
 
 
