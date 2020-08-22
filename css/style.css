@@ -623,6 +623,7 @@ table {
 /* The switch - the box around the slider */
 input[type="checkbox"]{
 	  	display: none;
+	  	font-size: 0;
 	  }
 
 	  input[type="checkbox"]+label{
@@ -631,7 +632,7 @@ input[type="checkbox"]{
 	  	display: inline-block;
 	  	font-size: 30px;
 	  	position: relative;
-		cursor: pointer;
+	  	cursor: pointer;
 	  }
 
 
@@ -666,6 +667,37 @@ input[type="checkbox"]{
 	     input[type="checkbox"]:checked+label:before{
 	    	background: blue;
 	    }
+
+	    input[type="text"]{
+	    	width: 150px;
+	    	height: 20px;
+	    	border: #FF6347	solid 1px;
+	    	background-color: #FFF5EE;
+	    }
+
+	    ::-webkit-input-placeholder {color:#FFA07A;}
+		::-moz-placeholder          {color:#FFA07A;}
+		:-moz-placeholder           {color:#FFA07A;}
+		:-ms-input-placeholder      {color:#FFA07A;}
+
+		 input[type="text"]:focus {
+		 	background: #A52A2A	
+		 }
+
+		 select {
+		 	-webkit-appearance: none;
+			-moz-appearance: none;
+			-ms-appearance: none;
+			appearance: none;
+			padding: 3px;
+			width: 65px;
+			position: relative;
+			background: url('../img/down.png') no-repeat right 10% center;
+			background-size: 10px 10px;
+		}
+
+
+
 
 
 	    
