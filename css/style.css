@@ -691,7 +691,7 @@ input[type="checkbox"]{
 			-moz-appearance: none;
 			-ms-appearance: none;
 			appearance: none;
-			padding: 5px;
+			padding: 2px;
 			width: 80px;
 			background: url('../img/down.png') no-repeat right 10% center;
 			background-size: 13px 13px;
