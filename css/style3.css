@@ -280,7 +280,7 @@ input[type="text"] {
     height: 11px;
     background: url('../img/hoversearch.png');
     position: absolute;
-    transform: translateY(5px) translateX(-25px);
+    transform: translateY(5px) translateX(-20px);
    }
 
 ::-webkit-input-placeholder {font-family: 'PT Sans', sans-serif;}
