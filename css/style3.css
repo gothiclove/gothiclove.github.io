@@ -267,9 +267,10 @@ input[type="text"] {
    	outline: none;
     width: 13px;
     height: 11px;
-    background: url('../img/search.png');
+    background: url('../img/search.png') no-repeat;
     position: absolute;
     transform: translateY(5px) translateX(-20px);
+    cursor: pointer;
    }
 
    input[type="submit"]:hover {
@@ -278,7 +279,7 @@ input[type="text"] {
    	outline: none;
     width: 13px;
     height: 11px;
-    background: url('../img/hoversearch.png');
+    background: url('../img/hoversearch.png')no-repeat;
     position: absolute;
     transform: translateY(5px) translateX(-20px);
    }
