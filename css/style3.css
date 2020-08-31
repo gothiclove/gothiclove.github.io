@@ -49,8 +49,7 @@ table {
 }
 
 body {
-	background:
-	url('../img/background/radial_gradient.png') 3px -5px/1095px 440px,
+	background: url('../img/background/radial_gradient.png') 3px -5px/1095px 440px,
 	url('../img/background/noise.png') 0px 0px/1100px 700px,
 	url('../img/background/gradient.png') 0px 0px/1100px 577px,
 	url('../img/background/background.png') 0px 0px/1100px 700px;
@@ -74,17 +73,16 @@ body {
 	height: 56px;
 	margin-top: 26px;
 	margin-left: 20px;
-	margin-right: 20px;
 }
 .thetitle {
 	float: left;
-	width: 330px;
+	width: 367px;
 	text-shadow: 1px 1px 0 #ffffff;
 	color: #808080;
 	font-family: 'PT Sans', sans-serif;
 	font-size: 18px;
 	padding-top: 63px;
-	margin-right: 95px;
+	margin-right: 85px;
 }
 .phone {
 	float: left;
@@ -95,7 +93,7 @@ body {
 	font-size: 16px;
 	line-height: 22px;
 	padding-top: 38px;
-	margin-right: 19px;
+	
 }
 .number {
 	font-family: 'PT Sans', sans-serif;
@@ -114,7 +112,6 @@ body {
 
 .social-icons {
 	padding-top: 63px;
-	padding-right: 20px;
 }
 
 
@@ -216,6 +213,7 @@ body {
 	left: -16px;
 	top: 33px;
 	padding-top: 10px;
+	z-index: 20;
 }
 .main-menu li:hover .dop-service {
 	height: 110px;
@@ -271,7 +269,7 @@ input[type="text"] {
     height: 11px;
     background: url('../img/search.png');
     position: absolute;
-    transform: translateY(5px) translateX(-25px);
+    transform: translateY(5px) translateX(-20px);
    }
 
    input[type="submit"]:hover {
@@ -304,6 +302,139 @@ input[type="text"] {
 ::-moz-placeholder          {font-style: italic;}/* Firefox 19+ */
 :-moz-placeholder           {font-style: italic;}/* Firefox 18- */
 :-ms-input-placeholder      {font-style: italic;}
+
+/*Slider*/
+
+#slider {
+	width: 1000px;
+	height: 300px;
+	font-size: 0;
+	margin-top: 15px;
+	box-shadow: 0 3px 4px #737373;
+	position: relative;
+}
+.bottom_white_border {
+	position: absolute;
+	z-index: 15;
+	bottom: 0;
+	left: 0;
+}
+.frame {
+	position: absolute;
+	z-index: 15;
+	top:0;
+	left:0;
+}
+
+.imagebox1 {
+	display: inline-block;
+	position: relative;
+	
+}
+.imagebox2 {
+	display: inline-block;
+	position: relative;
+	
+}
+.imagebox3 {
+	display: inline-block;
+	position: relative;
+
+}
+.imagebox4 {
+	display: inline-block;
+	position: relative;
+}
+
+	.substrate1 {
+	position: relative;
+	z-index: 5;
+}
+
+	.img1 {
+	position: absolute;
+	z-index: 10;
+	top: 0;
+	left: 0;
+}
+
+	.substrate2 {
+	position: relative;
+	z-index: 5;
+}
+
+	.img2 {
+	position: absolute;
+	z-index: 10;
+	top: 0;
+	left: 0;
+}
+
+	.substrate3 {
+	position: relative;
+	z-index: 5;
+}
+
+	.img3 {
+	position: absolute;
+	z-index: 10;
+	top: 0;
+	left: 0;
+}
+
+
+	.substrate4 {
+	position: relative;
+	z-index: 5;
+}
+
+	.img4 {
+	position: absolute;
+	z-index: 10;
+	top: 0;
+	left: 0;
+}
+
+.button-page {
+	position: absolute;
+	z-index: 15;
+	top: 280px;
+	right: 15px;
+	padding-left: 19px;
+}
+.button-page a{
+	text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.8);
+	color: #505050;
+	text-decoration: none;
+	font-family: "PT Sans";
+	font-size: 12px;
+	font-weight: 700;
+	display: block;
+	position: relative;
+	padding-left: 25px;
+}
+.button-page a:before {
+	content: "";
+	background: url(../img/slider/button.png);
+	position: absolute;
+	width: 11px;
+	height: 11px;
+	left:7px;
+	top: 0;
+}
+
+.button-page:hover a:before {
+	background: url(../img/slider/button-hover.png);
+
+}
+
+
+
+
+
+
+
+
 
 
 
