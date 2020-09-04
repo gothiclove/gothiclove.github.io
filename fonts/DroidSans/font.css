@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'DroidSans';
+  src: url('DroidSans.eot');
+  src: url('DroidSans.eot?#iefix') format('embedded-opentype'),
+       url('DroidSans.svg#DroidSans') format('svg'),
+       url('DroidSans.ttf') format('truetype'),
+       url('DroidSans.woff') format('woff'),
+       url('DroidSans.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
