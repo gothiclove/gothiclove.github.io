@@ -140,7 +140,7 @@ body {
 	float: left;
 }
 
-.social-icons :first-child:active a {
+.active {
 		background: url('../img/css_sprites.png') -0 -0;
 	}
 
