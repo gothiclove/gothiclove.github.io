@@ -140,14 +140,14 @@ body {
 	float: left;
 }
 
-.social-icons .home a {
+.social-icons :first-child a {
 		width: 15px; 
 		height: 13px;
     	background: url('../img/css_sprites.png') -15px -0;
 	   	display: block;
 	   	margin-right: 8px;
 }
-.social-icons .home:active a {
+.social-icons :first-child:active a {
 		background: url('../img/css_sprites.png') -0 -0;
 	}
 
