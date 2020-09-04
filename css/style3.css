@@ -140,13 +140,6 @@ body {
 	float: left;
 }
 
-.social-icons :first-child a {
-		width: 15px; 
-		height: 13px;
-    	background: url('../img/css_sprites.png') -15px -0;
-	   	display: block;
-	   	margin-right: 8px;
-}
 .social-icons :first-child:active a {
 		background: url('../img/css_sprites.png') -0 -0;
 	}
