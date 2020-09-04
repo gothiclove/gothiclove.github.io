@@ -528,7 +528,6 @@ input[type="text"] {
 
 .dropmenu {
 	width: 213px;
-	height: 175px;
 	display: none;
 	box-shadow: 0 1px 2px #999999, inset 0 1px 0 #ffffff;
 	background-image: linear-gradient(to top, #e6e6e6 0%, #f7f7f7 100%);
