@@ -140,7 +140,7 @@ body {
 	float: left;
 }
 
-.active {
+.active a {
 		background: url('../img/css_sprites.png') -0 -0;
 	}
 
