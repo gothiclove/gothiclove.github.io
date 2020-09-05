@@ -160,7 +160,7 @@ background: url('../img/background/radial_gradient.png') 3px -5px/1095px 440px,
 		width: 20px; 
 		height: 13px;
     	background: url('../img/css_sprites.png') -90px -0;
-	   	display: block;
+	   	display: block;	
 	   }
 
 .bottom-container {
@@ -321,46 +321,44 @@ input[type="text"] {
 #slider {
 	margin: 15px 0;
 	position: relative;
-	box-shadow: 0 3px 4px #737373;
 }
 
-.sliderbox:after {
+#slider:after {
 	content: "";
 	position: absolute;
 	background: white;
 	width: 950px;
-	height: 2px;
-	left: 3px;
+	height: 5px;
+	left: 5px;
 	bottom: 0;
+	border-radius: 5px;
 }
-
 
 .sliderbox {
 	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.75);
+	box-shadow: 0 3px 4px #737373;
 	background-image: linear-gradient(to top, #dddddd 0%, #f8f8f8 100%);
-	width: 1006px;
+	padding: 5px;
+	width: 1000px;
 	font-size: 0;
+	border-radius: 5px;
 }
 
 .imagebox1 {
 	display: inline-block;
-	width: 166px;
-	padding: 3px 0 3px 3px;
+
 }
 .imagebox2 {
 	display: inline-block;
-	width: 167px;
 
 }
 .imagebox3 {
 	display: inline-block;
-	width: 167px;
 
 }
 .imagebox4 {
 	display: inline-block;
-	width: 500px;
-	padding: 0 3px 0 0;
+
 }
 
 .button-page {
@@ -369,8 +367,8 @@ input[type="text"] {
 	width: 50px;
 	height: 20px;
 	background: #dddddd;
-	right: -3px;
-	bottom: 3px;
+	right: -6px;
+	bottom: 4px;
 	border-radius: 5px 0px 3px 0px;
 
 }
@@ -664,3 +662,7 @@ footer:after {
 .studio {
 	float: right;
 }
+
+
+
+
