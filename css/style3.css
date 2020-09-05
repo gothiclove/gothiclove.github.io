@@ -328,49 +328,53 @@ input[type="text"] {
 	content: "";
 	position: absolute;
 	background: white;
-	width: 950px;
-	height: 5px;
-	left: 5px;
-	bottom: 0;
-	border-radius: 5px;
+	width: 932px;
+	height: 2px;
+	left: 6px;
+	bottom: 5px;
 }
 
 .sliderbox {
 	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.75);
 	box-shadow: 0 3px 4px #737373;
 	background-image: linear-gradient(to top, #dddddd 0%, #f8f8f8 100%);
-	padding: 5px;
+	padding: 6px;
 	width: 1000px;
-	font-size: 0;
+	height: 300px;
+	display: flex;
 	border-radius: 5px;
+	box-sizing: border-box;
 }
 
 .imagebox1 {
-	display: inline-block;
-
+	flex-basis: 166px;
+	overflow: hidden;
+	border-radius: 3px 0 0 3px;
 }
 .imagebox2 {
-	display: inline-block;
 
+	flex-basis: 167px;
+	overflow: hidden;
 }
 .imagebox3 {
-	display: inline-block;
-
+	flex-basis: 167px;
+	overflow: hidden;
 }
 .imagebox4 {
-	display: inline-block;
-
+	flex-basis: 500px;
+	overflow: hidden;
+	border-radius: 0 3px 0 0;
 }
 
 .button-page {
 	position: absolute;
 	z-index: 15;
-	width: 50px;
-	height: 20px;
+	width: 62px;
+	height: 18px;
 	background: #dddddd;
-	right: -6px;
-	bottom: 4px;
-	border-radius: 5px 0px 3px 0px;
+	right: 0px;
+	bottom: 6px;
+	border-radius: 3px 0px 0 0;
 
 }
 .button-page a{
@@ -662,7 +666,3 @@ footer:after {
 .studio {
 	float: right;
 }
-
-
-
-
