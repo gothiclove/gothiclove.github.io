@@ -62,7 +62,7 @@ table {
 }
 
 body {
-	background: url('../img/background/radial_gradient.png') 3px -5px/1095px 440px,
+background: url('../img/background/radial_gradient.png') 3px -5px/1095px 440px,
 	url('../img/background/noise.png') 0px 0px/1100px 700px,
 	linear-gradient(to bottom, #f0f0f0 0%, rgba(223, 223, 225, 0) 100%) 0px 0px/1100px 577px,
 	url('../img/background/background.png') 0px 0px/1100px 700px;
@@ -141,11 +141,10 @@ body {
 }
 
 .active a {
-                width: 15px; 
+        width: 15px; 
 		height: 13px;
-display: block;
-margin-right: 7px;
-
+		display: block;
+		margin-right: 7px;
 		background: url('../img/css_sprites.png') -0 -0;
 	}
 
@@ -323,42 +322,45 @@ input[type="text"] {
 	margin: 15px 0;
 	position: relative;
 	box-shadow: 0 3px 4px #737373;
-	width: 1000px;
 }
 
-#slider:after {
+.sliderbox:after {
 	content: "";
 	position: absolute;
 	background: white;
 	width: 950px;
-	height: 3px;
+	height: 2px;
 	left: 3px;
 	bottom: 0;
 }
 
+
 .sliderbox {
 	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.75);
 	background-image: linear-gradient(to top, #dddddd 0%, #f8f8f8 100%);
-	padding: 3px;
-	width: 1000px;
+	width: 1006px;
 	font-size: 0;
 }
 
 .imagebox1 {
 	display: inline-block;
-
+	width: 166px;
+	padding: 3px 0 3px 3px;
 }
 .imagebox2 {
 	display: inline-block;
+	width: 167px;
 
 }
 .imagebox3 {
 	display: inline-block;
+	width: 167px;
 
 }
 .imagebox4 {
 	display: inline-block;
-
+	width: 500px;
+	padding: 0 3px 0 0;
 }
 
 .button-page {
@@ -415,6 +417,7 @@ input[type="text"] {
 	box-shadow: 0 2px 3px #999999, inset 0 1px 0 #ffffff;
 	margin-bottom: 3px;
 	background-image: linear-gradient(to top, #dddddd 0%, #f8f8f8 100%);
+	border-radius: 4px;
 }
 .left-menu-list li:hover {
 	width: 213px;
@@ -478,6 +481,7 @@ input[type="text"] {
 	width: 100%;
  	height: 100%;
  	object-fit: cover;
+	border-radius: 4px;
 }
 
 .textblock{
@@ -487,6 +491,7 @@ input[type="text"] {
 	box-shadow: 0 2px 3px #999999, inset 0 1px 0 #ffffff;
 	background-image: linear-gradient(to top, #dddddd 0%, #f8f8f8 100%);
 	margin-top: 4px;
+	border-radius: 5px;
 
 }
 .textblock a{
@@ -516,7 +521,18 @@ input[type="text"] {
 	box-shadow: 0 1px 2px #999999, inset 0 1px 0 #ffffff;
 	background-image: linear-gradient(to top, #e6e6e6 0%, #f7f7f7 100%);
 	position: absolute;
-	bottom: 24px;
+	bottom: 28px;
+	left: 0;
+	border-radius: 5px;
+}
+
+.textblock:after {
+	content: "";
+	width: 213px;
+	height: 4px;
+	background: transparent;
+	position: absolute;
+	top: -4px;
 	left: 0;
 }
 
@@ -524,13 +540,10 @@ input[type="text"] {
 	display: block;
 }
 
-
-
 .dropmenu li {
 	width: 191px;
 	height: 32px;
-	margin-left: 11px;
-	margin-right: 11px;
+	margin: 4px 11px;
 }
 
 .dropmenu :first-child {
@@ -633,7 +646,7 @@ footer:after {
 	background: url('../img/icon.png') no-repeat;
 	width: 20px;
 	height: 20px;
-	background-position: 50% 20%;
+	background-position: 75% 20%;
 }
 
 .inf {
@@ -651,7 +664,3 @@ footer:after {
 .studio {
 	float: right;
 }
-
-
-
-
