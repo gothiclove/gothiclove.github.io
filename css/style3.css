@@ -344,6 +344,7 @@ input[type="text"] {
 	display: flex;
 	border-radius: 5px;
 	box-sizing: border-box;
+	position: relative;
 }
 
 .imagebox1 {
