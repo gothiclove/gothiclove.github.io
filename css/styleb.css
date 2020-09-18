@@ -1,0 +1,163 @@
+.brandbox {
+font-family: "Montserrat - Extra Light";
+line-height: 22.15px;
+letter-spacing: 1.95px;
+color: #837880;
+text-align: center;
+}
+
+.navbar-toggler {
+	border: none;
+}
+
+
+
+.navbar-nav .active {
+	border-bottom: 1px solid #d1b4b6;
+	color: #d4b9bb;
+}
+.langandsoc {
+	justify-content: space-between;
+	padding: 0;
+}
+
+.insta {
+background: url('../img/navbar/instagram.png');
+width: 32px;
+height: 32px;
+display: block;
+margin: 0 10px;
+}
+
+.facebook {
+background: url('../img/navbar/facebook.png');
+width: 32px;
+height: 32px;
+display: block;
+}
+
+.facebook:hover {
+background: url('../img/navbar/facebook_hover.png');
+}
+
+.lang {
+	position: relative;
+}
+
+.lang:before {
+	content: "|";
+	position: absolute;
+	bottom: 19%;
+	left: 47%;
+}
+
+.block1 {
+	margin-bottom: 175px;
+}
+
+.carousel-item {
+	position: relative;
+}
+
+.carousel-caption {
+	position: absolute;
+	top: 50%;
+	margin-top: -100px;
+}
+
+.name {
+color: #837880;
+font-family: "Playfair Display";
+font-size: 70px;
+font-weight: 400;
+}
+.contact {
+	margin-top: 30px;
+}
+
+
+.contact a {
+	border-top: 2px solid #837880;
+	border-bottom: 2px solid #837880;
+	border-radius: 0;
+	color: #837880;
+	font-family: Montserrat;
+	font-size: 24px;
+}
+
+.block2 {
+}
+
+ h1 {
+	font-family: PlayfairDisplay;
+	font-size: 72px;
+	color: #e7dcda;
+	text-transform: uppercase;
+}
+
+.block2 h2 {
+	color: #837880;
+	font-family: PlayfairDisplay;
+	font-size: 56px;
+}
+
+.block2 h2 span {
+color: #e7dcda;
+}
+
+.block p {
+	font-family: Montserrat;
+	font-size: 18px;
+}
+
+.block2 button {
+	border-top: 1px solid #d1b4b6;
+	border-bottom: 1px solid #d1b4b6;
+	text-decoration: none;
+	color: #d1b4b6;
+	font-size: 24px;
+	font-family: "Montserrat - Extra Light";
+	text-transform: uppercase;
+	border-radius: 0;
+}
+
+.block3 {
+	margin-top: 230px;
+}
+
+
+.block3 h2 {
+	color: #e7dcda;
+	text-transform: uppercase;
+	font-family: PlayfairDisplay;
+	font-size: 72px;
+	text-align: center;
+}
+
+.block3 p {
+	font-family: Montserrat;
+	font-size: 18px;
+	color: #837880;
+	text-align: justify-content;
+}
+
+.block3 a {
+	text-decoration: none;
+	display: block;
+	color: #837880;
+	font-size: 24px;
+	font-family: PlayfairDisplay;
+
+}
+
+.service {
+	text-align: center;
+}
+
+.imghh:hover {
+	background-color: #FFFFFF;
+	filter: progid: DXImageTransform.Microsoft.Alpha(opacity=40);
+    opacity: 0.4;         
+    filter: alpha(opacity=40);
+}
+
