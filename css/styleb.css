@@ -153,11 +153,13 @@ color: #e7dcda;
 .service {
 	text-align: center;
 }
-
+.w-100 {
+	margin-top: 40px;
+}
 .imghh:hover {
 	background-color: #FFFFFF;
 	filter: progid: DXImageTransform.Microsoft.Alpha(opacity=40);
-    opacity: 0.4;         
-    filter: alpha(opacity=40);
+    	opacity: 0.4;         
+    	filter: alpha(opacity=40);
 }
 
